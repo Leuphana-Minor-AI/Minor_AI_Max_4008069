@@ -18,7 +18,7 @@ A simple project using an Arduino Uno and a KY-031 (HW-483) knock sensor to coun
 The code uses a digital input to listen for a 'LOW' signal from the mechanical spring inside the sensor. It includes a 200ms debounce delay to ensure physical vibrations don't trigger multiple counts for a single knock.
 
 ## How to Use
-1. Clone this repository.
-2. Open `src/knock_counter.ino` in the Arduino IDE.
+1. Copy the code in the "knock_counter_code.ino" file.
+2. Download the Arduino IDE software and insert the code.
 3. Upload the code to your Arduino Uno.
 4. Open the Serial Monitor at 9600 baud to see the live count.
